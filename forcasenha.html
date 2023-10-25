@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Senha</title>
+  <link rel="stylesheet" href="./css/forcasenha.css">
+</head>
+
+<body>
+  <section>
+    <!--  -->
+    <div class="signin">
+      <div class="caixaSenha">
+        <h2>Acessar</h2>
+        <div class="form">
+          <div class="barraProgresso"> 
+          </div>
+          <div class="inputBox">
+            <input id="password" type="password" required>
+            <i>Senha</i>
+          </div>
+          <div class="checkbox" id="idCheckbox">
+            <input id="checkbox" type="checkbox" onchange="mostrarSenha()">
+            <i>Mostrar senha</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/forcasenha.js"></script>
+
+</body>
+
+</html>
